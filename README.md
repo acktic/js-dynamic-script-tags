@@ -1,5 +1,6 @@
 # js-dynamic-script-tags
-Load javascript files dynamically
+Load javascript files dynamically  
+
 `
       let directory = "root/js/";
       let extension = ".js";
