@@ -4,10 +4,9 @@ Load javascript files dynamically
       let directory = "root/js/";
       let extension = ".js";
       let files = [
-        'Example',
+        'Example'
       ]
-`
-`
+
       for (var file of files) {
         let path = directory + file + extension;
         let script = document.createElement("script");
