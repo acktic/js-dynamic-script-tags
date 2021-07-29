@@ -6,7 +6,8 @@ Load javascript files dynamically
       let files = [
         'Example',
       ]
-
+`
+`
       for (var file of files) {
         let path = directory + file + extension;
         let script = document.createElement("script");
