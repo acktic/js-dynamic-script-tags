@@ -1,7 +1,7 @@
 # js-dynamic-script-tags
 Load javascript files dynamically  
 
-`  
+
 
       let directory = "root/js/";
       let extension = ".js";
@@ -15,4 +15,4 @@ Load javascript files dynamically
         script.type = "text/javascript";
         script.src = path;
         document.getElementsByTagName("head")[0].appendChild(script);
-`
+
